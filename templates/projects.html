@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block projectActive %}active{% endblock projectActive %}
+{% block body %}
+
+    <section id='projects'>
+        <div class='container py-4 '>
+            <div class='row row_cards'>
+                <div class="col-md-4 ">
+                    <div class="card section-border" style="width: 18rem;;">
+                        <img style="height: 220px;" src="{% static '/img/4.jpg' %}"
+                             class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title col-orange">Developer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">view work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card section-border" style="width: 18rem;">
+                        <img style="height: 220px;" src="{% static '/img/6.jpg' %}"
+                             class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title col-orange">Programmer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">view work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card section-border" style="width: 18rem;">
+                        <img style="height: 220px;" src="{% static '/img/5.jpg' %}"
+                             class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title col-orange">Designer</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn btn-primary">view work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock body %}

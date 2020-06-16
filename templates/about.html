@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block aboutActive %}active{% endblock aboutActive %}
+{% load static %}
+{% block body %}
+
+    <header class='bg-warning my-0 py-3 '>
+        <h2 class='mx-5 '>about</h2>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 mx-5">
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas hic nam rem, ipsum tenetur odio
+                    vero nisi porro? Cumque quas neque expedita non Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Earum delectus perferendis ipsam magnam, tempore suscipit aspernatur quo debitis maxime,
+                    reprehenderit maiores ex consectetur, fuga nesciunt tempora pariatur! Consequatur rerum sapiente
+                    magnam obcaecati laborum maxime, enim nulla iste dolorem reprehenderit ullam? Eos eaque mollitia
+                    autem eius culpa. Quae in reiciendis quod Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consequatur voluptatum sed doloremque nesciunt? Quae eius quam itaque voluptas fuga similique ad, id
+                    saepe nesciunt sunt veniam natus recusandae ullam non rem sequi nostrum dolore, molestias
+                    repellendus neque aut. Nisi quisquam enim sit libero architecto id obcaecati veritatis dignissimos
+                    similique maxime.
+                </p>
+            </div>
+            <div class="col-md-3 my-3">
+                <div class="card section-border" style="width: 20rem;;">
+                    <img style="height: 220px;" src="{% static '/img/4.jpg' %}"
+                         class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title col-orange">Developer</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">view work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock body %}
