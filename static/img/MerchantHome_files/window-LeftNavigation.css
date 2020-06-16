@@ -1,0 +1,73 @@
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Window
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-LeftNavigation-window {
+
+    margin: 1px 0px 18px 0px;
+    padding: 0px;
+    color: #5B99CC
+    text-align: left;
+    background-color: #ffffff;
+    /* Fix for IE height problem; uses Mozilla's recognition of and IE's ignorance of C-style line comment... */
+/ / height: 100 %;
+    width: 150px;
+}
+
+.bea-portal-LeftNavigation-window-content {
+    margin: 4px;
+    padding: 0px;
+    color: #5B99CC
+
+}
+
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Window Titlebar
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-LeftNavigation-window-titlebar {
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    color: #084868;
+    padding: 0px;
+    margin: 0px;
+    font-size: x-small;
+    font-weight: bold;
+    width: 99%;
+}
+
+.bea-portal-LeftNavigation-window-titlebar-container {
+    padding: 0px;
+    width: 100%;
+}
+
+.bea-portal-LeftNavigation-window-icon {
+    text-align: center;
+    padding: 0px 4px 0px 0px;
+    margin: 0px;
+    width: 1%;
+}
+
+.bea-portal-LeftNavigation-window-icon img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bea-portal-LeftNavigation-window-titlebar-title {
+    color: #333366;
+    text-align: left;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bea-portal-LeftNavigation-window-titlebar-buttons {
+    text-align: right;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}

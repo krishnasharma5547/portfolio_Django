@@ -1,0 +1,33 @@
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Desktop-Level Definitions
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 780px;
+
+}
+
+.bea-portal-body a {
+    display: inline;
+    text-decoration: none;
+}
+
+.bea-portal-body a:hover {
+    text-decoration: underline;
+}
+
+.bea-portal-body-content {
+}
+
+
+.bea-portal-body-footer {
+    font-size: x-small;
+    font-style: italic;
+}
+

@@ -1,0 +1,551 @@
+.navigationPageBody {
+    background-color: #FF00FF;
+    border-style: double
+}
+
+.comboBox {
+    font-family: Lucida Sans Unicode;
+    font-size: 10pt
+}
+
+.table {
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold
+}
+
+.url3 {
+    font-family: Arial;
+    font-size: 10pt
+}
+
+.url2 {
+    font-size: 10pt;
+    font-family: Arial
+}
+
+.url1 {
+    font-family: Arial;
+    font-size: 10pt
+}
+
+.displayTable {
+    border: 1 solid #000000
+}
+
+.displayFieldLabel {
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight: bold
+}
+
+.displayFieldData {
+    font-size: 12pt;
+    font-family: Arial
+}
+
+.subTableHeading {
+    font-family: Arial;
+    font-size: 11pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.displayTableHeading {
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.displayTableData {
+    font-size: 12px;
+    font-family: Arial
+}
+
+.bodyText {
+    font-family: Arial;
+    font-size: 12pt
+}
+
+.header3 {
+    font-family: Arial;
+    font-size: 14pt;
+    color: #FF00FF
+}
+
+.header2 {
+    font-family: Arial Black;
+    font-size: 18pt;
+    color: #008000;
+    font-weight: bold
+}
+
+.header1 {
+    font-family: arial;
+    font-size: 12pt;
+    color: #006699;
+    border-width: 3px;
+}
+
+.inputFieldLabel {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+.functionalHeader {
+    background-color: #f1f1f1;
+    font-size: 11pt;
+    color: #333366;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+.inputField {
+    font-family: Book Antiqua;
+    font-size: 9pt;
+}
+
+.button {
+    font-size: 11px;
+    font-family: Arial;
+    padding: 2px;
+    line-height: 10px;
+    color: #084868;
+    text-align: center;
+    background: #D9DDF1;
+    font-weight: bold;
+    cursor: hand;
+}
+
+.userMiniDetails {
+    font-size: 8pt;
+    font-family: Comic Sans MS;
+    color: #0000FF
+}
+
+.specificNavigationLinks {
+    font-size: 8pt;
+    font-family: Bookman Old Style;
+    color: #566FB3;
+    font-weight: bold
+}
+
+.navigationTableHeading {
+    color: #3399FF;
+    background-color: #00FFFF;
+    font-style: italic;
+    font-weight: bold
+}
+
+.navigationTableData {
+    font-family: Arial;
+    font-size: 12px;
+    color: #566FB3;
+    font-weight: bold
+}
+
+.navigationTableBorder {
+    border-left-style: dotted;
+    border-left-width: 1px;
+    border-right-style: dotted;
+    border-right-width: 1px;
+    border-top-style: dotted;
+    border-top-width: 0px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px
+}
+
+
+.leftCellBorder {
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px
+}
+
+.tableHeadingBG {
+    background-color: #f5f5ff;
+}
+
+.generalNavigationLinks {
+    font-size: 10pt;
+    font-family: Arial
+}
+
+.centerPlaceholderPTag {
+    width: 400px
+}
+
+.leftPlaceholderPTag {
+    width: 150px
+}
+
+.rightPlaceholderPTag {
+    width: 150px
+}
+
+.headerFooterNavigationLinks {
+    color: #7197B3;
+    font-size: 8pt;
+    font-family: Bookman Old Style
+}
+
+.licNewsHeading {
+    text-align: center;
+    width: 400px;
+    font-size: 14pt;
+    font-family: Arial
+}
+
+.licNewsDetails {
+    text-align: justify;
+    width: 400px;
+    font-size: 12pt;
+    font-family: Arial
+}
+
+.licNewsListHeading {
+    text-align: center;
+    width: 400px;
+    font-size: 14pt;
+    font-family: Arial
+}
+
+.licNewsListDetails {
+    text-align: justify;
+    width: 400px;
+    font-size: 12pt;
+    font-family: Arial
+}
+
+.successMessages {
+    font-family: Arial;
+    font-size: 12pt
+}
+
+.errorMessages {
+    font-family: Arial;
+    color: #FF0000;
+    font-size: 12pt
+}
+
+.lapsedRow {
+    background-color: #F0F0FF
+}
+
+.lapsedRowData {
+    font-size: 9px;
+    font-family: Arial
+}
+
+.disclaimer {
+    font-family: Arial;
+    font-size: 8pt
+}
+
+.pagingButton {
+    background-color: #f1f1f1;
+    border-color: #ffffff;
+    border-style: default;
+    border-width: 0;
+    color: #629CDA;
+    font-size: 9pt;
+    font-family: verdana;
+    font-weight: bold;
+    cursor: hand;
+}
+
+.pagingInputField {
+    text-align: center;
+    font-family: verdana;
+    font-size: 9pt;
+    color: #000000;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #E0DFED;
+}
+
+.pagingLabel {
+    text-align: center;
+    font-family: verdana;
+    font-size: 9pt;
+    color: #000000;
+    border-style: none;
+    border-width: 0px;
+    background-color: #f1f1f1;
+}
+
+.buttonPolicyDetails {
+    font-size: 11px;
+    font-family: Arial;
+    padding: 2px;
+    line-height: 10px;
+    color: #084868;
+    text-align: center;
+    background: #D9DDF1;
+    font-weight: bold;
+    cursor: hand;
+    width: 140px;
+}
+
+.resolution {
+    font-family: Arial;
+    font-size: 7.5pt;
+    color: #000000;
+    text-align: right;
+    font-weight: bold;
+}
+
+.inputBox {
+    border-width: 0px;
+}
+
+.topNavigation {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #6699FF;
+    font-weight: bold
+}
+
+.headerNavigation {
+    font-family: Arial;
+    font-size: 7.5pt;
+    font-weight: bold;
+    color: #6699FF
+}
+
+.tableBorderPremCalendar {
+    padding: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #595952;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.commonTableBorderPremCalendar {
+    padding: 1px;
+    border-right-style: solid;
+    border: solid;
+    border-color: #595952;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+.commonTableBorder {
+    padding: 1px;
+    border-style: solid;
+    border-color: #595952;
+    border-width: 1px;
+    border-collapse: collapse;
+    text-wrap: wrap;
+}
+
+.currentUserMessage {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #6699FF
+}
+
+.otherUserMessage {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #000000
+}
+
+.systemUserMessage {
+    font-family: Arial;
+    font-size: 10pt;
+    color: #FF0000
+}
+
+.errorHeading {
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold;
+    color: red
+}
+
+.firstNameDisplay {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: 3 E80D1;
+    font-size: 3
+}
+
+/
+/
+Mudra CSS
+.searchbox {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #555555;
+    height: 15px;
+    width: 105px;
+    border: 1px solid #3366CC;
+}
+
+
+.text {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    line-height: normal;
+    color: #898989;
+    list-style-image: url(bullet.jpg);
+    text-decoration: none;
+
+
+}
+
+.newuser {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 10px;
+    color: #FF4E00;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.basetext {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #7B7B7B;
+    text-decoration: none;
+
+
+}
+
+.txtbox {
+    height: 17px;
+    background-color: #EBEBEB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #003366;
+
+
+}
+
+.content {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #555555;
+    text-align: justify;
+
+
+}
+
+.contentheader {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #555555;
+
+
+}
+
+.contentheader1 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #555555;
+    font-style: normal;
+
+}
+
+.loginbox {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    height: 16px;
+    width: 120px;
+    background-color: #E6E6E6;
+    border: none;
+
+
+}
+
+.loginboxinside {
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+    height: 16px;
+    width: 90px;
+    background-color: #E6E6E6;
+    border: none;
+}
+
+.contentheader2 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6676a8;
+    font-style: normal;
+
+}
+
+.HEADER {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #003366;
+    font-style: normal;
+
+
+}
+
+.contentprod {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #fe814b;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+
+
+}
+
+.breadcrums {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #536393;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+.breadcrums2 {
+
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #333333;
+    font-style: normal;
+}
+
+.botlinks {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #7B7B7B;
+    text-decoration: none;
+
+}
+
+.copyright {
+
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #8B8B8B;
+}
+
+                   

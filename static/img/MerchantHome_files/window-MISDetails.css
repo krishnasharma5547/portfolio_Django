@@ -1,0 +1,68 @@
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Window
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-MISDetails-window {
+
+    margin: 1px;
+    padding: 0px;
+
+    background-color: #ffffff;
+    /* Fix for IE height problem; uses Mozilla's recognition of and IE's ignorance of C-style line comment... */
+/ / height: 100 %;
+    width: 99%;
+}
+
+.bea-portal-MISDetails-window-content {
+    margin: 4px;
+    padding: 0px;
+    width: 550;
+}
+
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Window Titlebar
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-MISDetails-window-titlebar {
+    background-color: #d8d8e5;
+    padding: 2px;
+    margin: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.bea-portal-MISDetails-window-titlebar-container {
+    padding: 0px;
+    width: 100%;
+}
+
+.bea-portal-MISDetails-window-icon {
+    text-align: center;
+    padding: 0px 4px 0px 0px;
+    margin: 0px;
+    width: 1%;
+}
+
+.bea-portal-MISDetails-window-icon img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bea-portal-MISDetails-window-titlebar-title {
+    color: #333366;
+    text-align: left;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bea-portal-MISDetails-window-titlebar-buttons {
+    text-align: right;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}

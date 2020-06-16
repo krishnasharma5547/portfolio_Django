@@ -1,0 +1,71 @@
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Window
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-LoginBox-window {
+
+    margin: 1px 0px 18px 0px;
+    padding: 0px;
+
+    text-align: left;
+
+    /* Fix for IE height problem; uses Mozilla's recognition of and IE's ignorance of C-style line comment... */
+/ / height: 100 %;
+    width: 98%;
+}
+
+.bea-portal-LoginBox-window-content {
+    margin: 4px;
+    padding: 0px;
+
+}
+
+/*
+// --------------------------------------------------------------------------------------------------------------------
+// Window Titlebar
+// --------------------------------------------------------------------------------------------------------------------
+*/
+
+.bea-portal-LoginBox-window-titlebar {
+    background-color: #f1f1f1;
+    color: #084868;
+    padding: 0px;
+    margin: 0px;
+    font-size: x-small;
+    font-weight: bold;
+    width: 99%;
+}
+
+.bea-portal-LoginBox-window-titlebar-container {
+    padding: 0px;
+    width: 100%;
+}
+
+.bea-portal-LoginBox-window-icon {
+    text-align: center;
+    padding: 0px 4px 0px 0px;
+    margin: 0px;
+    width: 1%;
+}
+
+.bea-portal-LoginBox-window-icon img {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bea-portal-LoginBox-window-titlebar-title {
+    color: #333366;
+    text-align: left;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bea-portal-LoginBox-window-titlebar-buttons {
+    text-align: right;
+    padding: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+}

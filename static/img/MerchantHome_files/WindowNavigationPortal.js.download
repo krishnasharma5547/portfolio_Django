@@ -1,0 +1,19 @@
+window.name = "PortalWindow";
+
+function openWebItem(webUrl)
+{  
+    var serverName = getServerName(window.location.href);
+    url = 'https://'+serverName+webUrl;
+    var w = window.open(url,"WebWindow");
+    w.focus();
+
+}
+
+function getServerName(url)
+{
+    var dblSlash   = url.indexOf('//')+2;
+    var slash      = url.indexOf('/',dblSlash);
+    var serverName = url.substring(dblSlash,slash);
+
+    return serverName;
+}
